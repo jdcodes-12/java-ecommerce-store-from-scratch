@@ -8,16 +8,16 @@ import java.math.BigDecimal;
 public class AppSetup {
     public static Product[] initProducts() {
         return new Product[] {
-            new DefaultProduct("Hardwood Oak Suffolk Internal Door", "Doors", BigDecimal.valueOf(109.99)),
-            new DefaultProduct("Oregon Cottage Interior Oak Door", "Doors", BigDecimal.valueOf(179.99)),
-            new DefaultProduct("Oregon Cottage Horizontal Interior White Oak Door", "Doors", BigDecimal.valueOf(189.99)),
-            new DefaultProduct("4 Panel Oak Deco Interior Door", "Doors", BigDecimal.valueOf(209.09)),
-            new DefaultProduct("Worcester 2000 30kW Ng Combi Boiler Includes Free Comfort+ II controller", "Boilers", BigDecimal.valueOf(989.99)),
-            new DefaultProduct("Glow-worm Betacom 4 30kW Combi Gas Boiler ERP", "Boilers", BigDecimal.valueOf(787.99)),
-            new DefaultProduct("Worcester 2000 25kW Ng Combi Boiler with Free Comfort+ II controller", "Boilers", BigDecimal.valueOf(859.99)),
-            new DefaultProduct("Wienerberger Terca Class B Engineering Brick Red 215mm x 102.5mm x 65mm (Pack of 504)", "Bricks", BigDecimal.valueOf(402.99)),
-            new DefaultProduct("Wienerberger Terca Engineering Brick Blue Perforated Class B 65mm (Pack of 400)", "Bricks", BigDecimal.valueOf(659.99)),
-            new DefaultProduct("Wienerberger Engineering Brick Red Smooth Class B 73mm - Pack of 368", "Bricks", BigDecimal.valueOf(523.99))
+            new DefaultProduct("Nike SB Dunk", "Shoes", BigDecimal.valueOf(149.99)),
+            new DefaultProduct("Nike Air Force 1", "Shoes", BigDecimal.valueOf(139.99)),
+            new DefaultProduct("Nike Jordan 1 Retro High Gray", "Shoes", BigDecimal.valueOf(159.99)),
+            new DefaultProduct("Adidas Yeezy Foam Slides", "Shoes", BigDecimal.valueOf(149.99)),
+            new DefaultProduct("Adidas Samba OG Court", "Shoes", BigDecimal.valueOf(129.99)),
+            new DefaultProduct("Nike Jordan 4 Retro Red Black", "Shoes", BigDecimal.valueOf(249.99)),
+            new DefaultProduct("Adidas Gazelle Scarlet Cloud White", "Shoes", BigDecimal.valueOf(149.00)),
+            new DefaultProduct("New Balance 9060 All Black", "Shoes", BigDecimal.valueOf(167.99)),
+            new DefaultProduct("Casio Analog Smoke Gray Watch", "Accessories", BigDecimal.valueOf(74.99)),
+            new DefaultProduct("Fear of God Hoodie Sycamore Large Mens", "Apparel", BigDecimal.valueOf(59.99))
         };
     }
 }
